@@ -1,0 +1,166 @@
+{% extends "dash2.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="customer.css">
+    <style>
+        .select1{
+            height: 33px;
+        }
+
+        .h3{
+            margin-top: 20px;
+            margin-left: 265px;
+        }
+
+        .box{
+            margin-left: 265px;
+            display: flex;
+            height: 50px;
+            width: 100%;
+            padding: 10px;
+            gap: 20px;           
+        }
+        p{
+            position: relative;
+            height: 40px;
+            width: 200px;
+            border: 2px solid black;
+            padding: 25px;
+            border-radius: 30px;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        p:hover{
+            box-shadow: 10px 7px 20px black;
+        }
+        .button{
+            width: 20px;
+            display: flex;
+            height: 50px;
+            gap: 0px;
+            margin-left: 265px;
+        }
+        .search-container {
+            display: flex;
+            margin-bottom: 13px;
+            width: 200px;
+            height: 32px;
+            
+
+        }
+
+        .search-input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        .search-icon {
+            padding: 10px;
+            /* background-color: #00fff2; */
+            /* color: rgb(10, 163, 79); */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .rimg{
+            width: 20px;
+            height: 20px;
+        }
+        .table1{
+            border: 10px;
+            padding: 50px;
+            margin-left: 265px;
+        }
+        .simg{
+            width: 30px;
+            height: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3 class="h3"> Customer's Summary</h3>
+    <div class="box">
+        <p> Total Customers</p>
+        <p style="color: rgb(211, 8, 8);"> Active Customers</p>
+        <p style="color: blue;">Inactive Customers </p>
+        <p style="color: blueviolet;"> 20 <br> Active Contacts</p>
+        <p style="color: palevioletred;"> 10 <br>Inactive Contacts</p>
+        <p style="color: rgb(226, 8, 233);"> 0 <br>Contacts Logged in Today</p>
+    </div>
+    <div style="padding-top: 60px; font-size: large; height: 30px; margin-left: 400px; ;">
+    <input type="checkbox" value="exclusive Inactive Customers"> exclusive Inactive Customers 
+    </div>
+
+    <div class="button">
+        <select>
+            <option>10</option>
+            <option>20</option>
+            <option>50</option>
+        </select>
+        <button>Export</button>
+        <button><img class="rimg" src="../static/refresh.jpg"><i class="fas fa-sync-alt"></i>
+        </button>
+    </div>
+
+    <div class="search-container" style="margin-left: 1300px;">
+        <select class="select1">
+            <option value="" >Active Customers</option>
+            <option value="">2</option>
+        </select>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-icon"><img class="simg" src="../static/search.jpg" alt=""></button>
+        </div>
+
+    </div>
+
+
+
+
+<table class="table1" style="width: 100%; border-collapse: collapse;">
+<tr>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;"><input type="checkbox"></th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">#</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Clinic</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Product Type</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Product Name</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Executive Name</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Bill Amount</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Paid Amount</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Balance Amount</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Primary Email</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Phone</th>
+    <th style="border: 2px solid black; padding: 8px; text-align: left;">Active</th>
+</tr>
+<tr>
+    <td style="border: 2px solid black; padding: 8px;"><input type="checkbox" id="excludeInactive" class="mr-2" /></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+    <td style="border: 2px solid black; padding: 8px;"></td>
+</tr>
+</table>
+                              
+
+
+{% endblock %}
+</body>
+</html>

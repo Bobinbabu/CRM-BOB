@@ -1,0 +1,130 @@
+{% extends "dash2.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="leads.css">
+</head>
+<body>
+
+<!-- Bootstrap Grid Layout -->
+<div>
+    <div class="row">
+       
+        <div style="width: 100%;">
+
+
+<div>
+    <div class="whole">
+       <a href="newlead">
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-300" style="background-color: green;">New Lead</button>
+       </a>
+    </div>
+    <hr>
+    <div class="whole1">
+        <h2 >Lead Search</h2>
+        <br>
+        <h4>Filter by:</h4>
+        <br>
+
+
+
+        <div class="whole2">
+            <div class="menu">
+                <select class="menu1">
+                    <option>Assigned</option>
+                </select>
+                <select class="menu1">
+                    <option>Status</option>
+                </select>
+                <select class="menu1">
+                    <option>Specialization</option>
+                </select>
+                <select class="menu1">
+                    <option>Additional Filters</option>
+                </select>
+            </div>
+
+            <div class="menu">
+                <input type="text" placeholder="From date" class="menu1">
+                <input type="text" placeholder="To date" class="menu1">
+                <input type="text" placeholder="Phone Number" class="menu1">
+                <input type="text" placeholder="City" class="menu1">
+                <button style="background-color: #dbdada; border: 0;" onclick="alert('Button clicked!')">
+                    <div class="dimg"><img src="" class="dimg"> <i class='bx bx-refresh'></i></div></button>
+            </div>
+        </div>
+    </div>
+    <div class='table1'>
+        <hr>
+        <table  class="table2">
+            
+                <tr style="border: 1px black solid;">
+                    <th><input type="checkbox"></th>
+                    <th class="p-3 text-left">SI No</th>
+                    <th class="p-3 text-left">Name</th>
+                    <th class="p-3 text-left">Company</th>
+                    <th class="p-3 text-left">Email</th>
+                    <th class="p-3 text-left">Phone</th>
+                    <th class="p-3 text-left">Assigned</th>
+                    <th class="p-3 text-left">Status</th>
+                    <th class="p-3 text-left">Priority</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td class="p-3">1</td>
+                    <td class="p-3">adarsh</td>
+                    <td class="p-3">wwwwww</td>
+                    <td class="p-3">ssfst@gmail.com</td>
+                    <td class="p-3">fssffff</td>
+                    <td class="p-3">Shabeer</td>
+                    <td class="p-3">follow-up</td>
+                    <td class="p-3">Medium</td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td class="p-3">2</td>
+                    <td class="p-3">nidhal sj</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">Nothing Selected</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">Nothing Selected</td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox"></td>
+                    <td class="p-3">3</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">Nothing Selected</td>
+                    <td class="p-3">-</td>
+                    <td class="p-3">Nothing Selected</td>
+                </tr>    
+        </table>
+    </div>
+</div>
+
+
+
+            
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}
+</body>
+</html>
+
+

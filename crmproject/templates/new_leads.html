@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new_leads.css">
+ 
+</head>
+<body>
+    <div>
+        <div class="abc">
+            <div>
+              <label for="status" >Status</label>
+              <select id="status" name="status" class="select1">
+                <option value="status">Nothing Selected</option>
+              </select>
+            </div>
+            <div>
+              <label for="status" >Specialization</label>
+              <select id="Specialization" name="Specialization" class="select1">
+                <option value="Specialization">Nothing Selected</option>
+              </select>
+            </div>
+            <div>
+              <label for="assigned">Assigned</label>
+              <select id="" name="assiged" class="select1">
+                <option value="assigned">Nothing Selected</option>
+              </select>
+            </div>
+        </div>
+        <div>
+          <div style="display: flex;">
+          <img style="width: 20px; height: 20px;" src="tag.jpg">
+            <label for="tags">Tags</label>
+          </div>
+            <select id="tags" name="tags" class="select1">
+            <option value="tag">Nothing Selected</option>
+            </select>
+        <div>
+    <div class="form-container">
+        <div class="column">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="position">Position</label>
+                <input type="text" id="position" placeholder="Position">
+            </div>
+            <div>
+                <label for="emailaddress">Email Address</label>
+                <input type="text" id="emailaddress" placeholder="Email Address">
+            </div>
+            <div>
+                <label for="website">Website</label>
+                <input type="text" id="website" placeholder="Website">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" placeholder="Phone">
+            </div>
+            <div>
+                <label for="company">Company</label>
+                <input type="text" id="company" placeholder="Company">
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Address">
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="City">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <input type="text" id="state" placeholder="State">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select id="country" name="country" class="select1">
+                    <option value="country">Nothing Selected</option>
+                </select>
+            </div>
+            <div>
+                <label for="zipcode">Zip Code</label>
+                <input type="text" id="zipcode" placeholder="Zip Code">
+            </div>
+            <div>
+                <label for="defaultlanguage">Default Language</label>
+                <select id="defaultlanguage" name="defaultlanguage" class="select1">
+                    <option value="defaultlanguage">System Default</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div> 
+        <label for="description">Description</label>
+        <textarea style="height: 80px; width: 100%;" name="Remarks" id="" placeholder="Description"></textarea>
+        <br><br>
+        </div>
+        <div style="display: flex;">
+          <input type="radio" id="option1" name="choice" value="option1">
+          <label for="option1">Public</label>
+          <input type="radio" id="option2" name="choice" value="option2">
+          <label for="option2">Contacted Today</label>
+        </div>
+        <br>
+        <div>
+          <label for="priority">Priority</label>
+          <select id="priority" name="priority" class="select1">
+            <option value="defaultlanguage">Nothing Selected</option>
+          </select>
+        </div>
+        <div> 
+          <label for="company">Remarks</label>
+          <!-- <input style="height: 80px;" type="text" id="company" placeholder='Remarks'> -->
+          <textarea style="height: 80px; width: 100%;" name="Remarks" id="" placeholder="Remarks"></textarea>
+        </div>
+      <br>
+        <div style="display: flex;">
+        <div class="button-container" >
+          <!-- Button with grey color -->
+          <button class="grey-button" style="color: black;" onclick="alert('Button clicked!')">Close</button>
+        </div>
+      
+        <div class="button-container">
+          <!-- Button with green color -->
+          <button class="green-button" onclick="alert('Button clicked!')">Save</button>
+        </div>
+      </div>
+      </div>
+</body>
+</html>

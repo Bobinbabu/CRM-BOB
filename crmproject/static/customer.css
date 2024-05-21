@@ -1,0 +1,70 @@
+
+        .select1{
+            height: 33px;
+        }
+        .box{
+            display: flex;
+            height: 50px;
+            width: 100%;
+            padding: 10px;
+            gap: 20px;           
+        }
+        p{
+            height: 40px;
+            width: 200px;
+            border: 2px solid black;
+            padding: 15px;
+            border-radius: 30px;
+            text-align: center;
+            justify-content: center;
+            margin-top: 10px;
+            padding-top: 30px;
+        }
+        
+        p:hover{
+            box-shadow: 10px 7px 20px black;
+        }
+        .button{
+            width: 20px;
+            display: flex;
+            height: 50px;
+            gap: 0px;
+        }
+        .search-container {
+            display: flex;
+            margin-bottom: 13px;
+            width: 200px;
+            height: 32px;
+            
+
+        }
+
+        .search-input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        .search-icon {
+            padding: 10px;
+            /* background-color: #00fff2; */
+            /* color: rgb(10, 163, 79); */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .rimg{
+            width: 20px;
+            height: 20px;
+        }
+        .table1{
+            border: 10px;
+            padding: 50px;
+        }
+        .simg{
+            width: 30px;
+            height: 25px;
+        }
+        

@@ -1,0 +1,163 @@
+*{
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    width: 100%;
+    background-color: #dbdada;
+}    
+
+a{
+    text-decoration: none;
+}
+
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+    background-color: white;
+    
+}
+th, td {
+    border: none; /* Remove borders */
+    padding: 8px;
+    text-align: left;
+    vertical-align: bottom;
+}
+td {
+    padding-bottom: 10px; /* Add padding only to the bottom */
+    border-bottom: 5px solid lightgray; /* Thick underline effect */
+   
+}
+th {
+    background-color: #f2f2f2;
+    border: 5px white;
+}
+.update {
+    display: flex;
+    justify-content: space-between;
+}
+        /* Custom styles for the sidebar */
+        .dimg{
+            height: 40px;
+            width: 40px;
+            padding: 2px;
+            border-radius: 40px;
+        }
+        .sidebar {
+            background-color: green;
+            height: 100vh;
+            color: #ffff;
+            padding: 20px;
+        }
+
+        .sidebar-brand {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .nav-link {
+            font-size: 18px;
+            padding: 8px 0;
+            color: #ffff;
+        }
+
+        .nav-link:hover {
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* Custom styles for the main content */
+        .main-content {
+            padding: 20px;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+th, td {
+    border: none; /* Remove borders */
+    padding: 8px;
+    text-align: left;
+    vertical-align: bottom;
+}
+td {
+    padding-bottom: 10px; /* Add padding only to the bottom */
+    border-bottom: 5px solid lightgray; /* Thick underline effect */
+   
+}
+th {
+    background-color: #f2f2f2;
+    border: 5px white;
+}
+.update {
+    display: flex;
+    justify-content: space-between;
+}
+        /* Custom styles for the sidebar */
+        .dimg{
+            height: 40px;
+            width: 40px;
+            padding: 2px;
+            border-radius: 40px;
+        }
+        .sidebar {
+            background-color: green;
+            height: 100vh;
+            color: #ffff;
+            padding: 20px;
+        }
+
+        .sidebar-brand {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Custom styles for the main content */
+        .main-content {
+            padding: 20px;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .menu{
+            
+            height: 30px;
+            display: flex;
+            gap: 20px;
+            
+        }
+        .menu1{
+            width: 200px;
+            height: 30px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .table1{
+            padding-top: 80px;
+            margin-right: 40px;
+        }
+        .table2,th,td{
+            border: 1px #f8f8f8 solid;
+            
+        }
+        .rimg{
+            width: 30px;
+            height: 30px;
+            border-radius: 3px;
+        }
+        .whole{
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .whole1{
+            margin-left: 50px;
+        }
+        .whole2{
+            margin-left: 50px;
+        }
+        .table2{
+            margin-left: 20px;
+            padding-right: 20px;
+        }
